@@ -19,22 +19,17 @@ Para poder visualizar nuestra página web tenemos que instalar XAMPP (https://ww
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
 ```
 Una vez tengamos instalado XAMPP, debemos ir a la ruta donde tenemos instalado XAMPP y dirigirnos a la carpeta htdocs. En mi caso es: C:\xampp\htdocs
 En la carpeta htdocs pegamos todo el contenido que hay en este repositorio.
 
 ```
-Dentro del programa de XAMPP, activamos la opción de Apache para pdoer visualizar la página web y el de MYSQL para detectar la base de datos.
+Dentro del programa de XAMPP, activamos la opción de Apache para poder visualizar la página web y el de MYSQL para detectar la base de datos.
 
 ```
-Abrimos nuestor navegador,
+Abrimos nuestor navegador, y en la barra de navegación introducimos lo siguiente: localhost/PR1
+Esto nos llevará a la página web
 ```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ### Analice las pruebas end-to-end 🔩
 
@@ -50,11 +45,9 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 * [PHP] (https://www.php.net/) - Lenguaje de programación
-* [JS]
-* [HTML & CSS]
+* [JS] - Para la validación de formularios
+* [HTML & CSS] - Para el diseño y la forma del contenido 
 
 ## Contribuyendo 🖇️
 
@@ -70,12 +63,11 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+* **Marc Díaz** - *PHP y BD* - [marcdcc](https://github.com/marcdcc)
+* **Gerard Gómez** - *PHP y BD* - [100007217](https://github.com/100007217)
+* **Laura Fernández** - *PHP, JS y CSS* - [laurafernandez18](https://github.com/LauraFernandez18)
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [dannylarrea](https://github.com/dannylarrea)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/dannylarrea/MORFEO21/contributors) quíenes han participado en este proyecto. 
 
 ## Licencia 📄
 

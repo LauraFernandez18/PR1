@@ -51,7 +51,24 @@ Añadimos el nombre que queremos ponerle a nuestro dominio.
 
 Después, en la zona de configuración de la página 
 
-Una vez añadidos todos los archivos,
+Una vez añadidos todos los archivos, tendremos que añadir la base de datos. Para eso, nos dirigimos a Tools->Database manager.
+
+Creamos la BD y le ponemos el nombre, el usuario y la contraseña deseados.
+
+Después volvemos a la zona de los ficheros y entramos en config.php que está dentro de public_html->services.
+
+Ahí configuramos el archivo según las credenciales que hemos indicado anteriormente
+
+```
+<?php 
+    //Definimos parametros de la bbdd
+ define("SERVIDOR","XXXX");
+ define("USUARIO","XXXX");
+ define("PASSWORD","XXXX");
+ define("BD","XXXX");
+```
+
+
 
 
 
@@ -81,9 +98,6 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/dannylarrea/MORFEO21/contributors) quíenes han participado en este proyecto. 
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
 

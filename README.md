@@ -1,3 +1,5 @@
+Host de la página web: https://pr1morfeo.000webhostapp.com/
+
 # MORFEO21
 
 Nuestro proyecto consiste en una página web para poder controlar las reservas de mesas en un restaurante. Nos ayuda a llevar un control del historial de las mesas que están disponibles, las reservadas, si hay incidencias...
@@ -41,7 +43,17 @@ Da un ejemplo
 
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+Para subir la página web a un host nos registraremos en 000webhost(https://www.000webhost.com/)
+
+Una vez registrados, iniciaremos sesión y vamos a Create New Site.
+
+Añadimos el nombre que queremos ponerle a nuestro dominio.
+
+Después, en la zona de configuración de la página 
+
+Una vez añadidos todos los archivos,
+
+
 
 ## Construido con 🛠️
 

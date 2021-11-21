@@ -23,17 +23,13 @@ También necesitaremos con editor de texto como puede ser:
 
 
 ### Instalación 🔧
-
-```
 Una vez tengamos instalado XAMPP, debemos ir a la ruta donde tenemos instalado XAMPP y dirigirnos a la carpeta htdocs. En mi caso es: C:\xampp\htdocs
-En la carpeta htdocs pegamos todo el contenido que hay en este repositorio.
 
-```
+En la carpeta htdocs pegamos todos los archivos descargados de este repositorio.
+
 Dentro del programa de XAMPP, activamos la opción de Apache para poder visualizar la página web y el de MYSQL para detectar la base de datos.
 
-```
-
-Entramos a nuestro editor de texto y editamos el archivo config.php rellenando los siguientes datos:
+Editamos el archivo config.php rellenando los siguientes datos:
 
 ```
 <?php 
@@ -45,15 +41,6 @@ Entramos a nuestro editor de texto y editamos el archivo config.php rellenando l
 
 Abrimos nuestor navegador, y en la barra de navegación introducimos lo siguiente: localhost/PR1
 Esto nos llevará a la página web
-```
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
 
 ## Despliegue 📦
 
@@ -63,7 +50,11 @@ Una vez registrados, iniciaremos sesión y vamos a Create New Site.
 
 Añadimos el nombre que queremos ponerle a nuestro dominio.
 
-Después, en la zona de configuración de la página 
+Después, en la zona de configuración de la página vamos a la sección de File Manager.
+
+Encontraremos un par de carpetas creadas.
+
+En la carpeta *public_html* añadiremos todos los archivos de la página web.
 
 Una vez añadidos todos los archivos, tendremos que añadir la base de datos. Para eso, nos dirigimos a Tools->Database manager.
 
@@ -85,13 +76,10 @@ Ahí configuramos el archivo según las credenciales que hemos indicado anterior
 
 ## Construido con 🛠️
 
-* [PHP] (https://www.php.net/) - Lenguaje de programación
+* [PHP] - Lenguaje de programación
 * [JS] - Para la validación de formularios
 * [HTML & CSS] - Para el diseño y la forma del contenido 
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
 
 ## Wiki 📖
 
@@ -99,7 +87,7 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 ## Versionado 📌
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+Actualmente solo tenemos disponible la primera versión de nuestra página web. (https://github.com/LauraFernandez18/PR1/releases/tag/v1)
 
 ## Autores ✒️
 
@@ -112,4 +100,4 @@ También puedes mirar la lista de todos los [contribuyentes](https://github.com/
 
 ## Expresiones de Gratitud 🎁
 
-* Agradecimientos a mis compañeros de proyecto por el gran trabajo en equipo
+* Agradecimientos a mis compañeros de proyecto por el gran trabajo en equipo y a los profesores por su ayuda ❤

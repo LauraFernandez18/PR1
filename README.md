@@ -73,6 +73,16 @@ Ahí configuramos el archivo según las credenciales que hemos indicado anterior
  define("BD","XXXX");
 ```
 
+Después ya tendriamos nuestra página web disponible!!
+
+Para acceder a la página principal necesitamos iniciar sesión, por eso aquí abajo te dejo un usuario de prueba: 
+
+
+
+**Usuario:** admin
+
+**Contraseña:** admin
+
 
 ## Construido con 🛠️
 

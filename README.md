@@ -15,9 +15,12 @@ Mira **Deployment** (Despliegue) para conocer como desplegar el proyecto.
 
 _Que cosas necesitas para instalar el software y como instalarlas_
 
-```
 Para poder visualizar nuestra página web tenemos que instalar XAMPP (https://www.apachefriends.org/es/index.html)
-```
+
+También necesitaremos con editor de texto como puede ser:
+* **Visual Studio Code** - (https://code.visualstudio.com/)
+* **Sublime Text** - (https://www.sublimetext.com/)
+
 
 ### Instalación 🔧
 
@@ -29,6 +32,17 @@ En la carpeta htdocs pegamos todo el contenido que hay en este repositorio.
 Dentro del programa de XAMPP, activamos la opción de Apache para poder visualizar la página web y el de MYSQL para detectar la base de datos.
 
 ```
+
+Entramos a nuestro editor de texto y editamos el archivo config.php rellenando los siguientes datos:
+
+```
+<?php 
+ define("SERVIDOR","XXXX");
+ define("USUARIO","XXXX");
+ define("PASSWORD","XXXX");
+ define("BD","XXXX");
+```
+
 Abrimos nuestor navegador, y en la barra de navegación introducimos lo siguiente: localhost/PR1
 Esto nos llevará a la página web
 ```
@@ -67,9 +81,6 @@ Ahí configuramos el archivo según las credenciales que hemos indicado anterior
  define("PASSWORD","XXXX");
  define("BD","XXXX");
 ```
-
-
-
 
 
 ## Construido con 🛠️

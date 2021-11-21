@@ -6,9 +6,11 @@ Nuestro proyecto consiste en una página web para poder controlar las reservas d
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+Con estas instrucciones te epxlicaré como hacer para poder visualizar la página web, tanto de manera local como mediante un host.
 
-Mira **Deployment** (Despliegue) para conocer como desplegar el proyecto.
+Mira **Instalación** para conocer como visualizar la página web de manera local.
+
+Mira **Despliegue**  para conocer como visualizar la página web desde el host.
 
 
 ### Pre-requisitos 📋
